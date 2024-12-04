@@ -2,7 +2,7 @@
     display: flex; 
     align-items: center; 
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 50px;
     gap: 20px; 
     padding: 20px;
   }
@@ -22,3 +22,23 @@
     color: #E8F5E9;
   }
   
+   
+  .social-links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .social-links a {
+    color: white;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-links img {
+    width: 32px;
+    height: 32px;
+  }

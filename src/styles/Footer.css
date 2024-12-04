@@ -8,14 +8,16 @@
     bottom: 0;
     width: 100%;
     margin-top: 20px;
-}
-
-.footer-content {
+  }
+  
+  .footer-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.footer-text {
+  }
+  
+  .footer-text {
     margin-bottom: 10px;
-}
+  }
+ 
+  

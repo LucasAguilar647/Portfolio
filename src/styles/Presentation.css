@@ -1,0 +1,24 @@
+.presentation-content {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-top: 150px;
+    gap: 20px; 
+    padding: 20px;
+  }
+  
+  .img-section img {
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 50px; 
+  }
+  
+  .presentation-content p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #E8F5E9;
+  }
+  

@@ -1,0 +1,45 @@
+.tools-container {
+    display: flex;
+    gap: 30px; 
+    overflow: hidden; 
+    position: relative;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    background-color: #183D3A;
+  }
+  
+  .tool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px; 
+  }
+  
+  .tool img {
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .tool p {
+    font-size: 14px;
+    color: #AEB6B1;
+  }
+
+  .h1-tools{
+    margin-top: 50px;
+    justify-self: center;
+    color: #AEB6B1;
+  }
+  
+ 
+  @keyframes slideLeft {
+    0% {
+      transform: translateX(100%); 
+    }
+    100% {
+      transform: translateX(-100%); 
+    }
+  }
+  

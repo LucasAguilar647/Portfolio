@@ -18,7 +18,6 @@ export const Herramientas = () => {
       {tools.map((tool) => (
         <div className="tool" key={tool.id}>
           <img src={tool.image} alt={tool.name} />
-          <p>{tool.name}</p>
         </div>
       ))}
     </div>

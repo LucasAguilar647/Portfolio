@@ -1,7 +1,7 @@
 .h1-projects {
     margin-top: 50px;
     justify-self: center;
-    color: #AEB6B1;
+    color: #D6BD98;
 }
 
 .projects-section {
@@ -14,7 +14,7 @@
 }
 
 .card {
-    border: 1px solid #ddd;
+    border: 1px solid #D6BD98;
     border-radius: 8px;
     padding: 20px;
     text-align: center;
@@ -31,11 +31,11 @@
 .card h2 {
     margin-top: 10px;
     font-size: 18px;
-    color: #E8F5E9;
+    color: #D6BD98;
 }
 
 .card p {
     margin-top: 10px;
     font-size: 14px;
-    color: #E8F5E9;
+    color: #D6BD98;
 }

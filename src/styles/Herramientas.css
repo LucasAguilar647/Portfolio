@@ -6,7 +6,7 @@
   height: 150px;
   align-items: center;
   justify-content: center;
-  background-color: #183D3A;
+  background-color: #40534C;
 }
 
 .tool {
@@ -24,13 +24,13 @@
 
 .tool p {
   font-size: 14px;
-  color: #AEB6B1;
+  color: #D6BD98;
 }
 
 .h1-tools {
   margin-top: 50px;
   justify-self: center;
-  color: #AEB6B1;
+  color: #D6BD98;
 }
 
 

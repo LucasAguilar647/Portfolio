@@ -19,7 +19,7 @@
   .presentation-content p {
     font-size: 20px;
     line-height: 1.5;
-    color: #E8F5E9;
+    color: #D6BD98;
   }
   
    
@@ -30,7 +30,7 @@
   }
   
   .social-links a {
-    color: white;
+    color: #D6BD98;
     transition: transform 0.3s ease;
   }
   

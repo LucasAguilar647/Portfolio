@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Projects.css';
 import { CardProjects } from './CardProjects';
+import GIFA from '../assets/images/GIFA.png'
 
 
 export const Projects = () => {
@@ -9,7 +10,7 @@ export const Projects = () => {
             <h1 className="h1-projects">Proyectos</h1>
             <div className="projects-section">
                 <CardProjects
-                    img={null}
+                    img={GIFA}
                     alt="git"
                     titulo="GIFA"
                     desc="Es un proyecto creado con React subido a Git"

@@ -21,11 +21,15 @@ export const Presentation = () => {
         </div>
       </section>
       <div>
-        <h1>Soy Lucas Aguilar</h1>
-        <p>
-          {textPresentation}
-        </p>
+      <div align="center">
+          <img
+            src="https://readme-typing-svg.herokuapp.com?color=%D6BD98&size=32&center=true&vCenter=true&width=600&height=50&lines=Hola,soy Lucas Aguilar"
+            alt="Typing animation"
+          />
+        </div>
+        <p>{textPresentation}</p>
       </div>
+
     </div>
   );
 };

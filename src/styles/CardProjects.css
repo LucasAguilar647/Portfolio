@@ -30,7 +30,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: black;
+    background-color: #40534C;
     color: #D6BD98;
     overflow: hidden;
   }
@@ -45,7 +45,29 @@
   
 
   .card-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     transform: rotateY(180deg);
     padding: 20px;
   }
   
+
+  
+.card-back h2 {
+  margin-top: 0;
+  margin-bottom: auto;
+}
+
+.card-back p {
+  margin: auto 0;
+}
+
+.card-back-section {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: auto;
+  padding: 0 20px;
+}

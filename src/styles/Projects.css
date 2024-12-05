@@ -11,3 +11,12 @@
     gap: 80px;
     justify-content: center;
 }
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .projects-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 300px);
+        gap: 40px;
+    }
+}

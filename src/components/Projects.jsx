@@ -2,6 +2,8 @@ import React from 'react';
 import '../styles/Projects.css';
 import { CardProjects } from './CardProjects';
 import GIFA from '../assets/images/GIFA.png'
+import TypeFast from '../assets/images/TypeFast.png'
+import BlocNotas from '../assets/images/BlocNotas.png'
 
 
 export const Projects = () => {
@@ -11,20 +13,20 @@ export const Projects = () => {
             <div className="projects-section">
                 <CardProjects
                     img={GIFA}
-                    alt="git"
+                    alt="GIFA"
                     titulo="GIFA"
-                    desc="Es un proyecto creado con React subido a Git"
+                    desc="Es un proyecto de la universidad"
                 />
                 <CardProjects
-                    img={null}
-                    alt="git"
-                    titulo="Proyecto 2"
+                    img={TypeFast}
+                    alt="TypeFast"
+                    titulo="TypeFast"
                     desc="Otro proyecto similar"
                 />
                 <CardProjects
-                    img={null}
-                    alt="git"
-                    titulo="Proyecto 3"
+                    img={BlocNotas}
+                    alt="BlocNotas"
+                    titulo="Bloc de Notas"
                     desc="Un proyecto de ejemplo"
                 />
                 <CardProjects

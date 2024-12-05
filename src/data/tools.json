@@ -2,8 +2,12 @@
     { "id": 1, "name": "HTML", "image": "src/assets/icons/html-5.png" },
     { "id": 2, "name": "CSS", "image": "src/assets/icons/css-3.png" },
     { "id": 3, "name": "JavaScript", "image": "src/assets/icons/js.png" },
-    { "id": 4, "name": "Java", "image": "src/assets/icons/java.png" },
-    { "id": 5, "name": "Git", "image": "src/assets/icons/git.png" },
-    { "id": 6, "name": "GitHub", "image": "src/assets/icons/github.png" }
+    { "id": 4, "name": "React", "image": "src/assets/icons/react.png" },
+    { "id": 5, "name": "Java", "image": "src/assets/icons/java.png" },
+    { "id": 6, "name": "Kotlin", "image": "src/assets/icons/kotlin.png" },
+    { "id": 7, "name": "Git", "image": "src/assets/icons/git.png" },
+    { "id": 8, "name": "GitHub", "image": "src/assets/icons/github.png" },
+    { "id": 9, "name": "GitLab", "image": "src/assets/icons/gitlab.png" }
+    
   ]
   

@@ -61,7 +61,8 @@
 
 .card-back-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
   width: 50%;
   margin-top: auto;
   padding: 0 20px;

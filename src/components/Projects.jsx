@@ -16,24 +16,24 @@ export const Projects = () => {
                     alt="GIFA"
                     titulo="GIFA"
                     desc="Es un proyecto de la universidad"
-                    demo={"https://github.com/LucasAguilar647"}
-                    codigo={"https://github.com/LucasAguilar647/React-TA_TE_TI"}
+                    demo={"https://lucasaguilar647.github.io/GIFA/"}
+                    codigo={"https://github.com/LucasAguilar647/GIFA"}
                 />
                 <CardProjects
                     img={TypeFast}
                     alt="TypeFast"
                     titulo="TypeFast"
                     desc="Otro proyecto similar"
-                    demo={"https://github.com/LucasAguilar647"}
-                    codigo={"https://github.com/LucasAguilar647/React-TA_TE_TI"}
+                    demo={"https://lucasaguilar647.github.io/TypeFast.App/"}
+                    codigo={"https://github.com/LucasAguilar647/TypeFast.App"}
                 />
                 <CardProjects
                     img={BlocNotas}
                     alt="BlocNotas"
                     titulo="Bloc de Notas"
                     desc="Un proyecto de ejemplo"
-                    demo={"https://github.com/LucasAguilar647"}
-                    codigo={"https://github.com/LucasAguilar647/React-TA_TE_TI"}
+                    demo={"https://play.google.com/store/apps/details?id=com.TrustM3Block.TrustM3Notes"}
+                    codigo={null}
                 />
                 <CardProjects
                     img={null}

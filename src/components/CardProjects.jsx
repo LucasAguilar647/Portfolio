@@ -16,9 +16,10 @@ export const CardProjects = ({ img, alt, titulo, desc, demo, codigo }) => {
           <p>{desc}</p>
           <section className='card-back-section'>
 
-            <a href={codigo} target="_blank" rel="noopener noreferrer">
+            { codigo &&
+              <a href={codigo} target="_blank" rel="noopener noreferrer">
               <img src="src/assets/icons/github (2).png" alt="GitHub" />
-            </a>
+            </a>}
 
             <a href={demo} target="_blank" rel="noopener noreferrer">
               <img src="src/assets/icons/demo.png" alt="Web" />

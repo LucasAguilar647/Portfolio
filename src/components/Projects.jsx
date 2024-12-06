@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/Projects.css';
 import { CardProjects } from './CardProjects';
-import GIFA from '../assets/images/GIFA.png'
-import TypeFast from '../assets/images/TypeFast.png'
-import BlocNotas from '../assets/images/BlocNotas.png'
+import GIFA from '/images/GIFA.png'
+import TypeFast from '/images/TypeFast.png'
+import BlocNotas from '/images/BlocNotas.png'
 
 
 export const Projects = () => {

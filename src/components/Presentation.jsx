@@ -1,7 +1,9 @@
 import React from 'react';
 import '../styles/Presentation.css';
-import perfil from '../assets/images/perfil.jpeg';
+import perfil from '/images/perfil.jpeg';
 import { textPresentation } from '../constantes/constantes';
+import Icons from '../data/ImportIcons';
+
 
 export const Presentation = () => {
   const handleDownload = () => {
@@ -10,6 +12,7 @@ export const Presentation = () => {
     link.download = 'Lucas Aguilar.pdf';
     link.click();
   };
+ 
 
   return (
     <div className="presentation-content">
@@ -17,16 +20,13 @@ export const Presentation = () => {
         <img src={perfil} alt="Foto de perfil" />
         <div className="social-links">
           <a href="https://www.linkedin.com/in/lucas-aguilar-5b5412249/" target="_blank" rel="noopener noreferrer">
-            <img src="src/assets/icons/linkedin.png" alt="LinkedIn" />
+            <img src={Icons.linkedinIcon} alt="LinkedIn" />
           </a>
           <a href="https://github.com/LucasAguilar647" target="_blank" rel="noopener noreferrer">
-            <img src="src/assets/icons/github (2).png" alt="GitHub" />
-          </a>
-          <a href="mailto:lucas.aguilar@email.com" target="_blank" rel="noopener noreferrer">
-            <img src="src/assets/icons/gmail.png" alt="Gmail" />
+            <img src={Icons.githubIcon} alt="GitHub" />
           </a>
           <button className='social-button' onClick={handleDownload}>
-            <img src="src/assets/icons/resume.png" alt="Resume" />
+            <img src={Icons.resumeIcon} alt="Resume" />
           </button>
           
         </div>

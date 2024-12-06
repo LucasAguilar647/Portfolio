@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/CardProjects.css';
+import Icons from '../data/ImportIcons';
 
 export const CardProjects = ({ img, alt, titulo, desc, demo, codigo }) => {
   return (
@@ -18,11 +19,11 @@ export const CardProjects = ({ img, alt, titulo, desc, demo, codigo }) => {
 
             { codigo &&
               <a href={codigo} target="_blank" rel="noopener noreferrer">
-              <img src="src/assets/icons/github (2).png" alt="GitHub" />
+              <img src={Icons.githubIcon} alt="GitHub" />
             </a>}
 
             <a href={demo} target="_blank" rel="noopener noreferrer">
-              <img src="src/assets/icons/demo.png" alt="Web" />
+              <img src={Icons.demoIcon} alt="Web" />
             </a>
 
           </section>

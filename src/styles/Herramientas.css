@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   border: #D6BD98 1px solid;
   border-radius: 10px;
+  
 }
 
 .tool {
@@ -22,7 +23,7 @@
 .tool img {
   animation: spin 8s linear infinite;
   object-fit: cover;
-  margin-bottom: 10px;
+  padding: 20px;
 }
 
 .tool h3 {
@@ -33,6 +34,7 @@
 
 .h1-tools {
   margin-top: 50px;
+  margin-bottom: 50px;
   justify-self: center;
   color: #D6BD98;
   text-align: center; 

@@ -35,14 +35,14 @@ export const Projects = () => {
                     demo={"https://play.google.com/store/apps/details?id=com.TrustM3Block.TrustM3Notes"}
                     codigo={null}
                 />
-                <CardProjects
+               { /*<CardProjects
                     img={GIFA}
                     alt="git"
                     titulo="Proyecto 4"
                     desc="Proyecto de demostración"
                     demo={"https://github.com/LucasAguilar647"}
                     codigo={"https://github.com/LucasAguilar647/React-TA_TE_TI"}
-                />
+                />*/}
             </div>
         </>
     );

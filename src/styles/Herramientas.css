@@ -7,6 +7,8 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  border: #D6BD98 1px solid;
+  border-radius: 10px;
 }
 
 .tool {
@@ -15,16 +17,15 @@
   align-items: center;
   justify-content: center;
   min-width: 100px; 
-  animation: spin 8s linear infinite;
 }
 
 .tool img {
-  
+  animation: spin 8s linear infinite;
   object-fit: cover;
   margin-bottom: 10px;
 }
 
-.tool p {
+.tool h3 {
   font-size: 12px; 
   color: #D6BD98;
   text-align: center;

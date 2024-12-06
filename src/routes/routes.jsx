@@ -1,18 +1,18 @@
-import React from 'react'
-import { createBrowserRouter,RouterProvider } from 'react-router-dom'
-import HomePage from '../pages/HomePage'
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import HomePage from "../pages/HomePage";
 
-
-const router= createBrowserRouter([
+const router = createBrowserRouter(
+  [
     {
-        path:'/',
-       element: <HomePage/>
+      path: "/",
+      element: <HomePage />,
     },
-
-])
+  ],
+  {
+    basename: "/Portfolio",
+  }
+);
 
 export const MyRoutes = () => {
-  return (
-    <RouterProvider router={router}  />
-  )
-}
+  return <RouterProvider router={router} />;
+};

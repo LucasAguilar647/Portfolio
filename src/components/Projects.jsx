@@ -36,7 +36,7 @@ export const Projects = () => {
                     codigo={null}
                 />
                 <CardProjects
-                    img={null}
+                    img={GIFA}
                     alt="git"
                     titulo="Proyecto 4"
                     desc="Proyecto de demostración"

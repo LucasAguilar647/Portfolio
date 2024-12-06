@@ -34,7 +34,7 @@ export const Presentation = () => {
         <div align="center">
           <img
             className="typing-image"
-            src="https://readme-typing-svg.herokuapp.com?color=%D6BD98&size=32&center=true&vCenter=true&width=600&height=50&lines=Hola,soy Lucas Aguilar!;Desarrollador+Frontend+Jr"
+            src="https://readme-typing-svg.herokuapp.com?color=%D6BD98&size=32&center=true&vCenter=true&width=600&height=50&lines=Hola,soy Lucas Aguilar!;Desarrollador+Frontend"
             alt="Typing animation"
           />
         </div>

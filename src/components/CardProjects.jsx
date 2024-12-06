@@ -8,7 +8,11 @@ export const CardProjects = ({ img, alt, titulo, desc, demo, codigo }) => {
       <div className="card-inner">
 
         <div className="card-front">
-          <img src={img} alt={alt} />
+          <div>
+            <img src={img} alt={alt} />
+          </div>
+          <h2> {titulo} </h2>
+  
         </div>
 
 

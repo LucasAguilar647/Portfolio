@@ -12,7 +12,7 @@ export const Presentation = () => {
     link.download = 'Lucas Aguilar.pdf';
     link.click();
   };
- 
+
 
   return (
     <div className="presentation-content">
@@ -28,16 +28,17 @@ export const Presentation = () => {
           <button className='social-button' onClick={handleDownload}>
             <img src={Icons.resumeIcon} alt="Resume" />
           </button>
-          
         </div>
       </section>
       <div>
         <div align="center">
           <img
+            className="typing-image"
             src="https://readme-typing-svg.herokuapp.com?color=%D6BD98&size=32&center=true&vCenter=true&width=600&height=50&lines=Hola,soy Lucas Aguilar!;Desarrollador+Frontend+Jr"
             alt="Typing animation"
           />
         </div>
+
         <p>{textPresentation}</p>
       </div>
     </div>

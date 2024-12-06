@@ -1,6 +1,6 @@
 export const fetchTools = async (setTools)=>{
     try{
-        const response = await fetch('src/data/tools.json')
+        const response = await fetch('tools.json')
         if(!response.ok){
             throw new Error(`Error fetching tools : ${response.statusText}`)
         }
@@ -10,3 +10,4 @@ export const fetchTools = async (setTools)=>{
         console.error('Error loading tools:',error)
     }
 }
+

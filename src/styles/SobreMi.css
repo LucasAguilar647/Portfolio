@@ -1,0 +1,30 @@
+.presentation-content p {
+    font-size: 18px; 
+    line-height: 1.5;
+    color: #D6BD98;
+    margin: 0 5%;
+}
+
+.presentation-content h1 {
+    color: #D6BD98;
+}
+
+
+
+.h1-presentation {
+    color: #D6BD98;
+    text-align: center; 
+}
+
+
+@media (max-width: 1024px) {
+    .presentation-content p {
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .presentation-content p {
+        font-size: 16px; 
+    }
+}

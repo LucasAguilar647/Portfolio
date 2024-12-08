@@ -1,5 +1,6 @@
 import React from 'react'
 import { textPresentation } from '../constantes/constantes'
+import '../styles/SobreMi.css'
 
 export const SobreMi = () => {
   return (

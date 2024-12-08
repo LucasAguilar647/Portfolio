@@ -1,22 +1,13 @@
 .navbar-section {
-    background-color: #183D3A;
+    background-color: #1a1a1a;
     display: flex;
-    justify-content: center;
-
-
+    align-items: center;
+    padding: 10px ;
+    box-shadow: 0 4px 6px rgba(235, 235, 235, 0.1);
+    backdrop-filter: blur(100px);
+    width: 100vw; 
 }
 
-.navbar-section button {
-    background-color: #2ECC71;
-    color: #E8F5E9;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.navbar-section button:hover {
-    background-color: #27AE60;
-
+.navbar-section h1 {
+    color: #D6BD98;
 }

@@ -9,7 +9,7 @@ import { SobreMi } from '../components/SobreMi';
 export const HomePage = () => {
     return (
         <>
-
+            
             <Presentation />
             <SobreMi />
             <Herramientas />

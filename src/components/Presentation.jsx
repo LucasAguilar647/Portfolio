@@ -8,7 +8,7 @@ import Icons from '../data/ImportIcons';
 export const Presentation = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'src/assets/documents/LucasAguilar.cv.pdf';
+    link.href = 'LucasAguilar.cv.pdf';
     link.download = 'Lucas Aguilar.pdf';
     link.click();
   };
@@ -31,15 +31,15 @@ export const Presentation = () => {
         </div>
       </section>
       <div>
-        <div align="center">
+        <div align="center" >
           <img
             className="typing-image"
-            src="https://readme-typing-svg.herokuapp.com?color=%D6BD98&size=32&center=true&vCenter=true&width=600&height=50&lines=Hola,soy Lucas Aguilar!;Desarrollador+Frontend"
+            src="https://readme-typing-svg.herokuapp.com?color=%23D6BD98&&center=true&vCenter=true&width=600&height=50&lines=¡Hola,soy Lucas Aguilar!;¡Desarrollador+Frontend!"
             alt="Typing animation"
           />
         </div>
 
-        <p>{textPresentation}</p>
+       
       </div>
     </div>
   );

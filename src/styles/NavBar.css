@@ -1,5 +1,4 @@
 .navbar-section {
-  
     display: flex;             
     align-items: center;        
     justify-content: space-between; 
@@ -28,5 +27,15 @@
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-section {
+        justify-content: center;
+    }
+
+    .navbar-section h1 {
+        text-align: center;
     }
 }

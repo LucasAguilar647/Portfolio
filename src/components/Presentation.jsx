@@ -49,12 +49,15 @@ export const Presentation = () => {
         </div>
       </section>
       <div>
-        <div align="center">
+        <div className='typewriter'>
           <img
             className="typing-image"
-            src="https://readme-typing-svg.herokuapp.com?color=%23D6BD98&&center=true&vCenter=true&width=600&height=50&lines=¡Hola,soy Lucas Aguilar!;¡Desarrollador+Frontend!"
+            src="https://readme-typing-svg.herokuapp.com?color=%23FFC857&&lines=¡Hola,soy Lucas Aguilar!;¡Desarrollador+Frontend!"
             alt="Texto animado: ¡Hola, soy Lucas Aguilar! ¡Desarrollador Frontend!"  
           />
+          <span>
+            Soy un desarrollador frontend apasionado por la tecnología y la programación. Me encanta aprender cosas nuevas y enfrentar desafíos.
+          </span>
         </div>
       </div>
     </div>

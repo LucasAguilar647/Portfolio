@@ -15,7 +15,6 @@
 .projects-section {
     display: grid;
     grid-template-columns: repeat(3, 250px);
-    height: 100vh;
     gap: 70px;
     justify-content: center;
 }

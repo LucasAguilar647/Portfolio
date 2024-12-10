@@ -1,4 +1,22 @@
-:root {
-  background-color: #1A3636;
+body {
+  margin: 0;
+  padding: 0;
+  background: #010e1f; 
+  background-image: radial-gradient(circle, rgba(1, 14, 31, 1) 0%, rgba(26, 43, 52, 1) 100%); 
+  background-size: 100% 100%;
+  animation: gradientAnimation 5s ease infinite; 
+  position: relative;
+  height: 100vh;
 }
 
+@keyframes gradientAnimation {
+  0% {
+      background-position: 0% 0%;
+  }
+  50% {
+      background-position: 100% 100%;
+  }
+  100% {
+      background-position: 0% 0%;
+  }
+}

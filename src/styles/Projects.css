@@ -1,17 +1,26 @@
+
+
 .h1-projects {
     margin-top: 50px;
     margin-bottom: 50px;
     justify-self: center;
     color: #D6BD98;
+    transition: transform 0.3s ease;
 }
+
+.h1-projects h1:hover {
+    transform: scale(1.1); 
+  }
 
 .projects-section {
     display: grid;
     grid-template-columns: repeat(3, 250px);
-   
+    height: 100vh;
     gap: 70px;
     justify-content: center;
 }
+
+
 
 /* Media query para pantallas más pequeñas */
 @media (max-width: 768px) {

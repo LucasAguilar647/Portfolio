@@ -4,6 +4,7 @@ import { CardProjects } from './CardProjects';
 import GIFA from '/images/GIFA.png'
 import TypeFast from '/images/TypeFast.png'
 import BlocNotas from '/images/BlocNotas.png'
+import BlackJack from '/images/BlackJack.png'
 
 
 export const Projects = () => {
@@ -35,14 +36,14 @@ export const Projects = () => {
                     demo={"https://play.google.com/store/apps/details?id=com.TrustM3Block.TrustM3Notes"}
                     codigo={null}
                 />
-               { /*<CardProjects
-                    img={GIFA}
-                    alt="git"
-                    titulo="Proyecto 4"
-                    desc="Proyecto de demostración"
-                    demo={"https://github.com/LucasAguilar647"}
-                    codigo={"https://github.com/LucasAguilar647/React-TA_TE_TI"}
-                />*/}
+               <CardProjects
+                    img={BlackJack}
+                    alt="BlackJack"
+                    titulo="BlackJack"
+                    desc="Es un proyecto que actualmente esta en desarrollo, es un juego de cartas en el que el jugador compite contra el crupier. El objetivo del juego es vencer al crupier sin pasarse de 21. Se juega con una baraja de 52 cartas. El crupier reparte dos cartas al jugador y dos a sí mismo."
+                    demo={"https://lucasaguilar647.github.io/BlackJack-game/"}
+                    codigo={"https://github.com/LucasAguilar647/BlackJack-game"}
+                />
             </div>
         </>
     );

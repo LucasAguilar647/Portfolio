@@ -1,0 +1,70 @@
+.presentation-content-sobremi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    text-align: center;
+    color: #D6BD98; 
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .presentation-content-sobremi h1 {
+    font-size: 36px;
+    color: #D6BD98;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .presentation-content-sobremi h1:hover {
+    transform: scale(1.1); 
+  }
+  
+  .presentation-content-sobremi p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 15%;
+    color: #D6BD98;
+    max-width: 800px;
+    transition: color 0.3s ease;
+  }
+  
+  .presentation-content-sobremi p:hover {
+    color: #F1C40F;
+  }
+  
+  @media (max-width: 1024px) {
+    .presentation-content-sobremi {
+      padding: 30px;
+    }
+    .presentation-content-sobremi p {
+      font-size: 18px;
+      margin: 0 10%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .presentation-content-sobremi {
+      padding: 20px;
+    }
+    .presentation-content-sobremi p {
+      font-size: 18px;
+      margin: 0 5%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .presentation-content-sobremi {
+      padding: 10px;
+    }
+    .presentation-content-sobremi p {
+      font-size: 14px;
+      margin: 0 5%;
+    }
+    .presentation-content-sobremi h1 {
+      font-size: 24px;
+    }
+  }
+  

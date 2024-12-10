@@ -2,45 +2,43 @@
 .presentation-content {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 30px; 
+    gap: 30px;
     padding: 20px;
     flex-wrap: wrap;
     text-align: center;
+    height: 100vh;
+    animation: fadeIn 1s ease-out;
 }
 
-
 .img-section {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    max-width: 100%;
     object-fit: cover;
-   
-    margin-bottom: 20px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
+    margin-top: -100px;
+    position: relative;
 }
 
 .img-section:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
-
 
 .img-section img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-
 
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
+    gap: 20px;
+    margin-top: 20px;
 }
-
 
 .social-links a, .social-button {
     display: inline-block;
@@ -48,83 +46,119 @@
 }
 
 .social-links img, .social-button img {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     transition: transform 0.3s ease;
 }
 
-
 .social-links a:hover img, .social-button:hover img {
-    transform: scale(1.2);  
-
+    transform: scale(1.2);
+    filter: brightness(1.2); 
 }
 
-
 .social-links a:hover {
-    opacity: 0.8;  
+    opacity: 0.8;
 }
 
 .social-button {
     background: transparent;
     border: none;
     cursor: pointer;
-    padding: 5px;
+    padding: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #D6BD98;
     transition: transform 0.3s ease;
-    width: 32px;
-    height: 32px;
-    
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
 }
 
 .social-button:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
     opacity: 0.8;
+    background-color: #D6BD98; 
+    color: #1A2B34; 
 }
 
 .typing-image {
     max-width: 100%;
-    height: auto;
+    height: 100%;
+    font-size: 28px; 
 }
 
-.presentation-content p {
-    font-size: 18px; 
-    line-height: 1.5;
+.typewriter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.typewriter span {
+    display: flex;
     color: #D6BD98;
-    margin: 0 5%;
+    align-items: flex-start;
+
 }
 
-.h1-presentation {
-    color: #D6BD98;
-    text-align: center; 
-}
-
-@media (max-width: 1024px) {
-    .presentation-content p {
-        font-size: 16px; 
-    }
-}
 
 @media (max-width: 768px) {
-    .presentation-content p {
-        font-size: 16px; 
+    .presentation-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
     }
+
+    .img-section {
+        margin-top: 0;
+    }
+
+    .img-section img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .social-links {
+        gap: 15px;
+    }
+
+    .social-links img, .social-button img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .typing-image {
+        max-width: 100%;
+        height: 100%;
+        font-size: 28px; 
+        align-items: flex-end;
+    }
+
+    .typewriter {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .typing-image {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto; 
+    }
+      
+
+
 }
 
-@media (max-width: 480px) {
-    .img-section img {
-        width: 150px;
-        height: 150px;
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
     }
-
-    .presentation-content p {
-        font-size: 14px;
-    }
-
-    .social-links img {
-        width: 32px;
-        height: 32px;
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }

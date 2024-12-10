@@ -18,12 +18,22 @@
   align-items: center;
   justify-content: center;
   min-width: 100px; 
+  transition: transform 0.3s ease-in-out;
+}
+
+.tool:hover {
+  transform: translateY(-10px);
 }
 
 .tool img {
   animation: spin 8s linear infinite;
   object-fit: cover;
   padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tool:hover img {
+  transform: scale(1.1);
 }
 
 .tool h3 {

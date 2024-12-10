@@ -12,7 +12,7 @@ export const HomePage = () => {
             <NavBar />
             <Presentation />
             <SobreMi />
-            <Herramientas />
+            
             <Projects />
             <Footer />
 

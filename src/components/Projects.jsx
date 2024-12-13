@@ -16,9 +16,9 @@ export const Projects = () => {
                     img={GIFA}
                     alt="GIFA"
                     titulo="GIFA"
-                    desc="GIFA (Gestión Integral de Flota Automotor) es un sistema diseñado para la gestión y optimización de flotas vehiculares. Mi participación se centró en el desarrollo del frontend, implementando una interfaz web responsive y funcionalidades como gestión de vehículos, control de stock y visualización de reportes dinámicos, utilizando tecnologías modernas para garantizar una experiencia de usuario eficiente y accesible."
+                    desc="GIFA (Gestión Integral de Flota Automotor) es un sistema diseñado para la gestión y optimización de flotas vehiculares. Mi participación se centró en el desarrollo del frontend, implementando una interfaz web responsive y funcionalidades como gestión de vehículos, control de stock y visualización de reportes dinámicos."
                     demo={"https://lucasaguilar647.github.io/GIFA/"}
-                    codigo={"https://github.com/LucasAguilar647/GIFA"}
+                    codigo={null}
                 />
                 <CardProjects
                     img={TypeFast}

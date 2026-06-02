@@ -1,0 +1,14 @@
+[
+  { "id": 1, "name": "HTML", "image": "icons/html-5.png" },
+  { "id": 2, "name": "CSS", "image": "icons/css-3.png" },
+  { "id": 3, "name": "JavaScript", "image": "icons/js.png" },
+  { "id": 4, "name": "React", "image": "icons/react.png" },
+  { "id": 5, "name": "Java", "image": "icons/java.png" },
+  { "id": 6, "name": "Spring Boot", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
+  { "id": 7, "name": "Kotlin", "image": "icons/kotlin.png" },
+  { "id": 8, "name": "SQL", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+  { "id": 9, "name": "Git", "image": "icons/git.png" },
+  { "id": 10, "name": "GitHub", "image": "icons/github.png" },
+  { "id": 11, "name": "GitLab", "image": "icons/gitlab.png" },
+  { "id": 12, "name": "SCRUM", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" }
+]
